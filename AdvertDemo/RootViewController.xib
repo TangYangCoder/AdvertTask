@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rAW-IV-hrE">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="LNX-vA-3mb"/>
+                    </constraints>
+                    <color key="barTintColor" red="0.58616269720000003" green="1" blue="0.06979786784" alpha="1" colorSpace="calibratedRGB"/>
+                    <textAttributes key="titleTextAttributes">
+                        <color key="textColor" red="1" green="0.22689418459999999" blue="0.2311729605" alpha="1" colorSpace="calibratedRGB"/>
+                    </textAttributes>
+                    <items>
+                        <navigationItem title="首页" id="Kdq-9Q-K1c"/>
+                    </items>
+                </navigationBar>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="特别鸣谢：感谢作者：zhuxiaohui  提供的方案和接口  他的代码地址：https://github.com/CoderZhuXH/XHLaunchAd" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gmo-5n-oBP">
+                    <rect key="frame" x="55" y="132" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rAW-IV-hrE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2hG-cw-ZGf"/>
+                <constraint firstAttribute="bottom" secondItem="gmo-5n-oBP" secondAttribute="bottom" constant="407" id="4Qk-Yw-e0G"/>
+                <constraint firstAttribute="trailing" secondItem="rAW-IV-hrE" secondAttribute="trailing" id="JRl-dk-ZL4"/>
+                <constraint firstItem="gmo-5n-oBP" firstAttribute="top" secondItem="rAW-IV-hrE" secondAttribute="bottom" constant="88" id="cAD-Jp-akv"/>
+                <constraint firstItem="gmo-5n-oBP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="55" id="epR-Jc-d91"/>
+                <constraint firstItem="rAW-IV-hrE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="oSS-a3-0KA"/>
+                <constraint firstAttribute="trailing" secondItem="gmo-5n-oBP" secondAttribute="trailing" constant="80" id="zod-s1-G5j"/>
+            </constraints>
+            <point key="canvasLocation" x="33" y="27"/>
+        </view>
+    </objects>
+</document>
